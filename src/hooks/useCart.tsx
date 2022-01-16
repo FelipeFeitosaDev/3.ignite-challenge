@@ -56,7 +56,7 @@ useEffect(()=>{
       const amount = currentAmount + 1;
 
       if(amount > stockAmount){
-        toast.error('Quantidade solicitada fora do estoque')
+        toast.error('Quantidade solicitada fora de estoque')
         return
       }
 
@@ -106,7 +106,7 @@ useEffect(()=>{
       const stockAmount = stock.data.amount;
 
       if(amount > stockAmount){
-        toast.error('Quantidade solicitada fora do estoque');
+        toast.error('Quantidade solicitada fora de estoque');
         return;
       }
       const updatedCart = [...cart];
